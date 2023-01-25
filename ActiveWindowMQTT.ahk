@@ -7,7 +7,7 @@
 MQTTPrefix = ActiveWindowMQTT
 MosquittoPubExe := "C:\Program Files\mosquitto\mosquitto_pub.exe"
 
-MsgBox, Host: %MQTTBrokerHostname%`nUser: %MQTTBrokerUsername%`nPass: %MQTTBrokerPassword%
+;MsgBox, Host: %MQTTBrokerHostname%`nUser: %MQTTBrokerUsername%`nPass: %MQTTBrokerPassword%
 
 Menu, Tray, Icon, %SystemRoot%\system32\SHELL32.dll, 22
 Menu, Tray, Tip, Active Window MQTT
